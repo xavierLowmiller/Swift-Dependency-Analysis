@@ -1,0 +1,62 @@
+PODS:
+  - Alamofire (5.0.2)
+  - Eureka (5.2.1)
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - PromiseKit (6.13.1):
+    - PromiseKit/CorePromise (= 6.13.1)
+    - PromiseKit/Foundation (= 6.13.1)
+    - PromiseKit/UIKit (= 6.13.1)
+  - PromiseKit/CorePromise (6.13.1)
+  - PromiseKit/Foundation (6.13.1):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.13.1):
+    - PromiseKit/CorePromise
+  - ReachabilitySwift (5.0.0)
+  - ReSwift (5.0.0)
+  - RNCryptor (5.1.0)
+  - RxSwift (5.1.1)
+  - Starscream (4.0.3)
+  - Yams (3.0.1)
+
+DEPENDENCIES:
+  - Eureka (~> 5.2)
+  - Moya (~> 14.0)
+  - PromiseKit (~> 6.8)
+  - ReachabilitySwift
+  - ReSwift
+  - RNCryptor (~> 5.0)
+  - RxSwift (~> 5.0)
+  - Starscream (>= 4.0.0)
+  - Yams
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Eureka
+    - Moya
+    - PromiseKit
+    - ReachabilitySwift
+    - ReSwift
+    - RNCryptor
+    - RxSwift
+    - Starscream
+    - Yams
+
+SPEC CHECKSUMS:
+  Alamofire: 3ba7a4db18b4f62c4a1c0e1cb39d7f3d52e10ada
+  Eureka: c883105488e05bc65539f583246ecf9657cabbfe
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  PromiseKit: 28fda91c973cc377875d8c0ea4f973013c05b6db
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  ReSwift: 628f1a9b3ee52e3b3ca2a644435472fd77afafe1
+  RNCryptor: a369134686cd2ad391323cc856b62e591193ba79
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  Starscream: ef06f0961fff0880bca0604416d61141e4faca67
+  Yams: 4199a97883e0369046e3fe882fcc95e559966370
+
+PODFILE CHECKSUM: 2587f1c6426ec0fd4da286d37b15f7326bb145cd
+
+COCOAPODS: 1.9.1
