@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E2C9138247D8E2C0004B352 /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E2C912E247D8E2C0004B352 /* PromiseKit.framework */; };
+		4E2C9139247D8E2C0004B352 /* Eureka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E2C912F247D8E2C0004B352 /* Eureka.framework */; };
+		4E2C913A247D8E2C0004B352 /* RNCryptor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E2C9130247D8E2C0004B352 /* RNCryptor.framework */; };
+		4E2C913B247D8E2C0004B352 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E2C9131247D8E2C0004B352 /* RxSwift.framework */; };
+		4E2C913C247D8E2C0004B352 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E2C9132247D8E2C0004B352 /* Starscream.framework */; };
+		4E2C913D247D8E2C0004B352 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E2C9133247D8E2C0004B352 /* Moya.framework */; };
+		4E2C913E247D8E2C0004B352 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E2C9134247D8E2C0004B352 /* RxCocoa.framework */; };
+		4E2C913F247D8E2C0004B352 /* Yams.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E2C9135247D8E2C0004B352 /* Yams.framework */; };
+		4E2C9140247D8E2C0004B352 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E2C9136247D8E2C0004B352 /* Reachability.framework */; };
+		4E2C9141247D8E2C0004B352 /* ReSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E2C9137247D8E2C0004B352 /* ReSwift.framework */; };
+		4E2C9143247D8E820004B352 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E2C9142247D8E820004B352 /* Alamofire.framework */; };
+		4E2C9145247D8FFE0004B352 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E2C9144247D8FFE0004B352 /* RxRelay.framework */; };
 		4E32A538247D856B00E24F84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E32A537247D856B00E24F84 /* AppDelegate.swift */; };
 		4E32A53A247D856B00E24F84 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E32A539247D856B00E24F84 /* SceneDelegate.swift */; };
 		4E32A53C247D856B00E24F84 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E32A53B247D856B00E24F84 /* ContentView.swift */; };
@@ -16,6 +28,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E2C912E247D8E2C0004B352 /* PromiseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PromiseKit.framework; path = Carthage/Build/iOS/PromiseKit.framework; sourceTree = "<group>"; };
+		4E2C912F247D8E2C0004B352 /* Eureka.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Eureka.framework; path = Carthage/Build/iOS/Eureka.framework; sourceTree = "<group>"; };
+		4E2C9130247D8E2C0004B352 /* RNCryptor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RNCryptor.framework; path = Carthage/Build/iOS/RNCryptor.framework; sourceTree = "<group>"; };
+		4E2C9131247D8E2C0004B352 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		4E2C9132247D8E2C0004B352 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/iOS/Starscream.framework; sourceTree = "<group>"; };
+		4E2C9133247D8E2C0004B352 /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/iOS/Moya.framework; sourceTree = "<group>"; };
+		4E2C9134247D8E2C0004B352 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		4E2C9135247D8E2C0004B352 /* Yams.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Yams.framework; path = Carthage/Build/iOS/Yams.framework; sourceTree = "<group>"; };
+		4E2C9136247D8E2C0004B352 /* Reachability.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reachability.framework; path = Carthage/Build/iOS/Reachability.framework; sourceTree = "<group>"; };
+		4E2C9137247D8E2C0004B352 /* ReSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReSwift.framework; path = Carthage/Build/iOS/ReSwift.framework; sourceTree = "<group>"; };
+		4E2C9142247D8E820004B352 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		4E2C9144247D8FFE0004B352 /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/iOS/RxRelay.framework; sourceTree = "<group>"; };
 		4E32A534247D856B00E24F84 /* Dependencies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dependencies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E32A537247D856B00E24F84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E32A539247D856B00E24F84 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,6 +55,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E2C913B247D8E2C0004B352 /* RxSwift.framework in Frameworks */,
+				4E2C9138247D8E2C0004B352 /* PromiseKit.framework in Frameworks */,
+				4E2C913E247D8E2C0004B352 /* RxCocoa.framework in Frameworks */,
+				4E2C9141247D8E2C0004B352 /* ReSwift.framework in Frameworks */,
+				4E2C913A247D8E2C0004B352 /* RNCryptor.framework in Frameworks */,
+				4E2C9140247D8E2C0004B352 /* Reachability.framework in Frameworks */,
+				4E2C913F247D8E2C0004B352 /* Yams.framework in Frameworks */,
+				4E2C9143247D8E820004B352 /* Alamofire.framework in Frameworks */,
+				4E2C9145247D8FFE0004B352 /* RxRelay.framework in Frameworks */,
+				4E2C913C247D8E2C0004B352 /* Starscream.framework in Frameworks */,
+				4E2C913D247D8E2C0004B352 /* Moya.framework in Frameworks */,
+				4E2C9139247D8E2C0004B352 /* Eureka.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +76,18 @@
 		4E32A52B247D856B00E24F84 = {
 			isa = PBXGroup;
 			children = (
+				4E2C9142247D8E820004B352 /* Alamofire.framework */,
+				4E2C912F247D8E2C0004B352 /* Eureka.framework */,
+				4E2C9133247D8E2C0004B352 /* Moya.framework */,
+				4E2C912E247D8E2C0004B352 /* PromiseKit.framework */,
+				4E2C9136247D8E2C0004B352 /* Reachability.framework */,
+				4E2C9137247D8E2C0004B352 /* ReSwift.framework */,
+				4E2C9130247D8E2C0004B352 /* RNCryptor.framework */,
+				4E2C9134247D8E2C0004B352 /* RxCocoa.framework */,
+				4E2C9144247D8FFE0004B352 /* RxRelay.framework */,
+				4E2C9131247D8E2C0004B352 /* RxSwift.framework */,
+				4E2C9132247D8E2C0004B352 /* Starscream.framework */,
+				4E2C9135247D8E2C0004B352 /* Yams.framework */,
 				4E32A536247D856B00E24F84 /* Dependencies */,
 				4E32A535247D856B00E24F84 /* Products */,
 			);
@@ -85,6 +133,7 @@
 				4E32A530247D856B00E24F84 /* Sources */,
 				4E32A531247D856B00E24F84 /* Frameworks */,
 				4E32A532247D856B00E24F84 /* Resources */,
+				4E2C912D247D8DEF0004B352 /* Carthage copy-frameworks */,
 			);
 			buildRules = (
 			);
@@ -140,6 +189,51 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E2C912D247D8DEF0004B352 /* Carthage copy-frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Eureka.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Moya.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/PromiseKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Reachability.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ReSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RNCryptor.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxRelay.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Starscream.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Yams.framework",
+			);
+			name = "Carthage copy-frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Alamofire.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Eureka.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Moya.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/PromiseKit.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Reachability.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/ReSwift.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RNCryptor.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxCocoa.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxRelay.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxSwift.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Starscream.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Yams.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4E32A530247D856B00E24F84 /* Sources */ = {
@@ -288,6 +382,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Dependencies/Preview Content\"";
 				DEVELOPMENT_TEAM = 3CN9FMBCF4;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Dependencies/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -308,6 +406,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Dependencies/Preview Content\"";
 				DEVELOPMENT_TEAM = 3CN9FMBCF4;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Dependencies/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

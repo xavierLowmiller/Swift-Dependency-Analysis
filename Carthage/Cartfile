@@ -1,0 +1,9 @@
+github "Moya/Moya" ~> 14.0
+github "ReactiveX/RxSwift" ~> 5.0
+github "daltoniam/Starscream" >= 4.0.0
+github "xmartlabs/Eureka" ~> 5.2
+github "jpsim/Yams"
+github "mxcl/PromiseKit" ~> 6.8
+github "ReSwift/ReSwift"
+github "ashleymills/Reachability.swift"
+github "RNCryptor/RNCryptor" ~> 5.0
