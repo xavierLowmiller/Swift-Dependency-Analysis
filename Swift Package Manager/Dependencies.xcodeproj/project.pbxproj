@@ -3,10 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E158F99247F0CAD00FC3070 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 4E158F98247F0CAD00FC3070 /* Moya */; };
+		4E158F9C247F0CD200FC3070 /* Reachability in Frameworks */ = {isa = PBXBuildFile; productRef = 4E158F9B247F0CD200FC3070 /* Reachability */; };
+		4E158F9F247F0CDE00FC3070 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 4E158F9E247F0CDE00FC3070 /* RxRelay */; };
+		4E158FA1247F0CDE00FC3070 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4E158FA0247F0CDE00FC3070 /* RxSwift */; };
+		4E158FA3247F0CDE00FC3070 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 4E158FA2247F0CDE00FC3070 /* RxCocoa */; };
+		4E158FA6247F0D0700FC3070 /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = 4E158FA5247F0D0700FC3070 /* Starscream */; };
+		4E158FA9247F0D2B00FC3070 /* Eureka in Frameworks */ = {isa = PBXBuildFile; productRef = 4E158FA8247F0D2B00FC3070 /* Eureka */; };
+		4E158FAC247F0D5600FC3070 /* Yams in Frameworks */ = {isa = PBXBuildFile; productRef = 4E158FAB247F0D5600FC3070 /* Yams */; };
+		4E158FAF247F0DAB00FC3070 /* PromiseKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4E158FAE247F0DAB00FC3070 /* PromiseKit */; };
+		4E158FB2247F0DD000FC3070 /* ReSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4E158FB1247F0DD000FC3070 /* ReSwift */; };
+		4E158FB5247F0DF200FC3070 /* RNCryptor in Frameworks */ = {isa = PBXBuildFile; productRef = 4E158FB4247F0DF200FC3070 /* RNCryptor */; };
 		4E32A538247D856B00E24F84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E32A537247D856B00E24F84 /* AppDelegate.swift */; };
 		4E32A53A247D856B00E24F84 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E32A539247D856B00E24F84 /* SceneDelegate.swift */; };
 		4E32A53C247D856B00E24F84 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E32A53B247D856B00E24F84 /* ContentView.swift */; };
@@ -31,6 +42,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E158F9F247F0CDE00FC3070 /* RxRelay in Frameworks */,
+				4E158FAF247F0DAB00FC3070 /* PromiseKit in Frameworks */,
+				4E158F99247F0CAD00FC3070 /* Moya in Frameworks */,
+				4E158FA3247F0CDE00FC3070 /* RxCocoa in Frameworks */,
+				4E158FB5247F0DF200FC3070 /* RNCryptor in Frameworks */,
+				4E158FA1247F0CDE00FC3070 /* RxSwift in Frameworks */,
+				4E158FB2247F0DD000FC3070 /* ReSwift in Frameworks */,
+				4E158F9C247F0CD200FC3070 /* Reachability in Frameworks */,
+				4E158FA9247F0D2B00FC3070 /* Eureka in Frameworks */,
+				4E158FAC247F0D5600FC3070 /* Yams in Frameworks */,
+				4E158FA6247F0D0700FC3070 /* Starscream in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +113,19 @@
 			dependencies = (
 			);
 			name = Dependencies;
+			packageProductDependencies = (
+				4E158F98247F0CAD00FC3070 /* Moya */,
+				4E158F9B247F0CD200FC3070 /* Reachability */,
+				4E158F9E247F0CDE00FC3070 /* RxRelay */,
+				4E158FA0247F0CDE00FC3070 /* RxSwift */,
+				4E158FA2247F0CDE00FC3070 /* RxCocoa */,
+				4E158FA5247F0D0700FC3070 /* Starscream */,
+				4E158FA8247F0D2B00FC3070 /* Eureka */,
+				4E158FAB247F0D5600FC3070 /* Yams */,
+				4E158FAE247F0DAB00FC3070 /* PromiseKit */,
+				4E158FB1247F0DD000FC3070 /* ReSwift */,
+				4E158FB4247F0DF200FC3070 /* RNCryptor */,
+			);
 			productName = Dependencies;
 			productReference = 4E32A534247D856B00E24F84 /* Dependencies.app */;
 			productType = "com.apple.product-type.application";
@@ -119,6 +154,17 @@
 				Base,
 			);
 			mainGroup = 4E32A52B247D856B00E24F84;
+			packageReferences = (
+				4E158F97247F0CAD00FC3070 /* XCRemoteSwiftPackageReference "Moya" */,
+				4E158F9A247F0CD200FC3070 /* XCRemoteSwiftPackageReference "Reachability" */,
+				4E158F9D247F0CDE00FC3070 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				4E158FA4247F0D0700FC3070 /* XCRemoteSwiftPackageReference "Starscream" */,
+				4E158FA7247F0D2B00FC3070 /* XCRemoteSwiftPackageReference "Eureka" */,
+				4E158FAA247F0D5600FC3070 /* XCRemoteSwiftPackageReference "Yams" */,
+				4E158FAD247F0DAB00FC3070 /* XCRemoteSwiftPackageReference "PromiseKit" */,
+				4E158FB0247F0DD000FC3070 /* XCRemoteSwiftPackageReference "ReSwift" */,
+				4E158FB3247F0DF200FC3070 /* XCRemoteSwiftPackageReference "RNCryptor" */,
+			);
 			productRefGroup = 4E32A535247D856B00E24F84 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -342,6 +388,139 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4E158F97247F0CAD00FC3070 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 14.0.0;
+			};
+		};
+		4E158F9A247F0CD200FC3070 /* XCRemoteSwiftPackageReference "Reachability" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ashleymills/Reachability.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		4E158F9D247F0CDE00FC3070 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.1;
+			};
+		};
+		4E158FA4247F0D0700FC3070 /* XCRemoteSwiftPackageReference "Starscream" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/daltoniam/Starscream";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.3;
+			};
+		};
+		4E158FA7247F0D2B00FC3070 /* XCRemoteSwiftPackageReference "Eureka" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/xmartlabs/Eureka";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.1;
+			};
+		};
+		4E158FAA247F0D5600FC3070 /* XCRemoteSwiftPackageReference "Yams" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jpsim/Yams";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.1;
+			};
+		};
+		4E158FAD247F0DAB00FC3070 /* XCRemoteSwiftPackageReference "PromiseKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mxcl/PromiseKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.13.1;
+			};
+		};
+		4E158FB0247F0DD000FC3070 /* XCRemoteSwiftPackageReference "ReSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReSwift/ReSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		4E158FB3247F0DF200FC3070 /* XCRemoteSwiftPackageReference "RNCryptor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RNCryptor/RNCryptor";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4E158F98247F0CAD00FC3070 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E158F97247F0CAD00FC3070 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		4E158F9B247F0CD200FC3070 /* Reachability */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E158F9A247F0CD200FC3070 /* XCRemoteSwiftPackageReference "Reachability" */;
+			productName = Reachability;
+		};
+		4E158F9E247F0CDE00FC3070 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E158F9D247F0CDE00FC3070 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		4E158FA0247F0CDE00FC3070 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E158F9D247F0CDE00FC3070 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		4E158FA2247F0CDE00FC3070 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E158F9D247F0CDE00FC3070 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		4E158FA5247F0D0700FC3070 /* Starscream */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E158FA4247F0D0700FC3070 /* XCRemoteSwiftPackageReference "Starscream" */;
+			productName = Starscream;
+		};
+		4E158FA8247F0D2B00FC3070 /* Eureka */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E158FA7247F0D2B00FC3070 /* XCRemoteSwiftPackageReference "Eureka" */;
+			productName = Eureka;
+		};
+		4E158FAB247F0D5600FC3070 /* Yams */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E158FAA247F0D5600FC3070 /* XCRemoteSwiftPackageReference "Yams" */;
+			productName = Yams;
+		};
+		4E158FAE247F0DAB00FC3070 /* PromiseKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E158FAD247F0DAB00FC3070 /* XCRemoteSwiftPackageReference "PromiseKit" */;
+			productName = PromiseKit;
+		};
+		4E158FB1247F0DD000FC3070 /* ReSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E158FB0247F0DD000FC3070 /* XCRemoteSwiftPackageReference "ReSwift" */;
+			productName = ReSwift;
+		};
+		4E158FB4247F0DF200FC3070 /* RNCryptor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E158FB3247F0DF200FC3070 /* XCRemoteSwiftPackageReference "RNCryptor" */;
+			productName = RNCryptor;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4E32A52C247D856B00E24F84 /* Project object */;
 }
