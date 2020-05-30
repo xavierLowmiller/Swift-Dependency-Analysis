@@ -8,6 +8,7 @@ target 'Dependencies' do
   # Pods for Dependencies
   pod "Moya", '~> 14.0'
   pod "RxSwift", '~> 5.0'
+  pod "RxCocoa", '~> 5.0'
   pod "Starscream", '>= 4.0.0'
   pod "Eureka", '~> 5.2'
   pod "Yams"

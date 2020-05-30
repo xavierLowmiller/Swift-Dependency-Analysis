@@ -17,6 +17,11 @@ PODS:
   - ReachabilitySwift (5.0.0)
   - ReSwift (5.0.0)
   - RNCryptor (5.1.0)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
   - RxSwift (5.1.1)
   - Starscream (4.0.3)
   - Yams (3.0.1)
@@ -28,6 +33,7 @@ DEPENDENCIES:
   - ReachabilitySwift
   - ReSwift
   - RNCryptor (~> 5.0)
+  - RxCocoa (~> 5.0)
   - RxSwift (~> 5.0)
   - Starscream (>= 4.0.0)
   - Yams
@@ -41,6 +47,8 @@ SPEC REPOS:
     - ReachabilitySwift
     - ReSwift
     - RNCryptor
+    - RxCocoa
+    - RxRelay
     - RxSwift
     - Starscream
     - Yams
@@ -53,10 +61,12 @@ SPEC CHECKSUMS:
   ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
   ReSwift: 628f1a9b3ee52e3b3ca2a644435472fd77afafe1
   RNCryptor: a369134686cd2ad391323cc856b62e591193ba79
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
   RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
   Starscream: ef06f0961fff0880bca0604416d61141e4faca67
   Yams: 4199a97883e0369046e3fe882fcc95e559966370
 
-PODFILE CHECKSUM: 2587f1c6426ec0fd4da286d37b15f7326bb145cd
+PODFILE CHECKSUM: fe046fe91ceeda3169ceb6a6f70724306be05135
 
 COCOAPODS: 1.9.2
