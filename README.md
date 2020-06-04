@@ -26,7 +26,8 @@ All measurements were made using a 2017 15" MacBook Pro using Xcode 11.5 and iOS
 
 |                        | No dependencies | CocoaPods | Carthage | Swift Package Manager |
 | ---------------------- | --------------- | --------- | -------- | --------------------- |
-| Total Size             | 88 KB           | 2.2 MB    | 2.2 MB   | 2.2 MB                |
+| Total Size             | 24 KB           | 2.1 MB    | 2.2 MB   | 1.7 MB                |
+| Total Size (unzipped)  | 136 KB          | 6.2MB     | 6.5 MB   | 5.0 MB                |
 | Executable Size        | 88 KB           | 88 KB     | 88 KB    | 5.0 MB                |
 | Frameworks Folder Size | No Frameworks   | 6.4 MB    | 6.0 MB   | No Frameworks         |
 
