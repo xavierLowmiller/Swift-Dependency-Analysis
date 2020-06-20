@@ -6,6 +6,7 @@ There's an article on the [blog][] about it.
 ## Measurements
 
 All measurements were made using a 2017 15" MacBook Pro using Xcode 11.5 and iOS 13.5.
+Cocoapods version is 1.9.2, Carthage 0.34.0.
 
 ### App Launch Times
 
