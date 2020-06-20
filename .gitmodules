@@ -1,0 +1,30 @@
+[submodule "Git Submodules/Submodules/Alamofire"]
+	path = Git Submodules/Submodules/Alamofire
+	url = https://github.com/Alamofire/Alamofire
+[submodule "Git Submodules/Submodules/Eureka"]
+	path = Git Submodules/Submodules/Eureka
+	url = https://github.com/xmartlabs/Eureka
+[submodule "Git Submodules/Submodules/Moya"]
+	path = Git Submodules/Submodules/Moya
+	url = https://github.com/Moya/Moya
+[submodule "Git Submodules/Submodules/PromiseKit"]
+	path = Git Submodules/Submodules/PromiseKit
+	url = https://github.com/mxcl/PromiseKit
+[submodule "Git Submodules/Submodules/Reachability"]
+	path = Git Submodules/Submodules/Reachability
+	url = https://github.com/ashleymills/Reachability.swift
+[submodule "Git Submodules/Submodules/ReSwift"]
+	path = Git Submodules/Submodules/ReSwift
+	url = https://github.com/ReSwift/ReSwift
+[submodule "Git Submodules/Submodules/RNCryptor"]
+	path = Git Submodules/Submodules/RNCryptor
+	url = https://github.com/RNCryptor/RNCryptor
+[submodule "Git Submodules/Submodules/RxSwift"]
+	path = Git Submodules/Submodules/RxSwift
+	url = https://www.github.com/ReactiveX/RxSwift
+[submodule "Git Submodules/Submodules/Starscream"]
+	path = Git Submodules/Submodules/Starscream
+	url = https://github.com/daltoniam/Starscream
+[submodule "Git Submodules/Submodules/Yams"]
+	path = Git Submodules/Submodules/Yams
+	url = https://github.com/jpsim/Yams
