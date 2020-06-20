@@ -31,8 +31,15 @@ resolveDependencies() {
         -scheme Dependencies
       cd ..
       ;;
+    "Git Submodules/")
+      echo "Resolving Git Submodules"
+      cd "$path"
+      rm -rf DerivedData Submodules
+      time git submodule update --init
+      cd ..
+      ;;
     *)
-      echo "Resolving dependencies for unexpected folder $path"
+      echo "Unexpected folder $path"
       exit 1
       ;;
   esac
